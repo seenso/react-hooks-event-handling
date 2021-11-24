@@ -207,6 +207,10 @@ rendered, not when the button is clicked. This is why we always need to provide
 a _function definition_, not a _function invocation_ to our event handlers.
 Here's the solution:
 
+-----------------------------------------------------------------------
+---------------------Invoke func in anon cb func-----------------------
+-----------------------------------------------------------------------
+
 ```jsx
 function MultiButton() {
   function handleClick(number) {
